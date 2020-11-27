@@ -1,0 +1,35 @@
+@media screen and (max-width:991px){
+    .icons a i{
+        margin: 0 1rem;
+    }
+    .navbar{
+        padding: 2rem 1rem !important;
+    }
+    .navbar-nav{
+        margin-top: 2rem;
+    }
+    .nav-link::before{
+        top: 0;
+    }
+    .nav-link{
+        padding: 1.5rem 1rem !important;
+        font-size: 1.5rem;
+    }
+    .navbar-brand img{
+        width: 10rem !important;
+    }
+    #slider-section{
+        text-align: center;
+    }
+}
+@media screen and (max-width:575px){
+    .section{
+        padding: 7rem 0;
+      }
+}
+@media screen and (max-width:379px){
+    .contact-info.ml-4{
+        margin-left: 0 !important;
+        margin-top: .5rem;
+    }
+}
